@@ -14,7 +14,7 @@
 [![File Structure](https://img.shields.io/badge/file_structure-FFFFFF?style=for-the-badge)](https://github.com/cschorn01/rpi_pico_CLI_easy_build/tree/main#file-structure)
 [![How to Use](https://img.shields.io/badge/how_to_use-FFFFFF?style=for-the-badge)](https://github.com/cschorn01/rpi_pico_CLI_easy_build/tree/main#how-to-use)
 
-[![Stargazers repo roster for @cschorn01/rpi_pico_lora_template](https://reporoster.com/stars/cschorn01/rpi_pico_CLI_easy_build)](https://github.com/cschorn01/rpi_pico_CLI_easy_build/stargazers)
+[![Stargazers repo roster for @cschorn01/rpi_pico_CLI_easy_build](https://reporoster.com/stars/cschorn01/rpi_pico_CLI_easy_build)](https://github.com/cschorn01/rpi_pico_CLI_easy_build/stargazers)
 
 ## Description
 Include in your project folder to easily delete, then recreate your build folder, and run cmake. The .uf2 files will be put into the build folder for you.
