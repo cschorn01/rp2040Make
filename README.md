@@ -50,9 +50,6 @@ After running these command line prompts you should see a build folder appear, t
     // system( 'make from 'build'') -C DIRECTORY, Change to DIRECTORY before doing anything.
     system( "make -C build" ); -->
   
-
-
-[![TOP](https://img.shields.io/badge/TOP-FFFFFF?style=for-the-badge)](https://github.com/cschorn01/rpi_pico_CLI_easy_build/)
 <div align="center" dir="auto">
   <a href="https://github.com/cschorn01/rpi_pico_CLI_easy_build">
     <img src="https://img.shields.io/badge/Back_To_Top-FFFFFF?style=for-the-badge" alt="Back To Top">
