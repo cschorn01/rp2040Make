@@ -1,4 +1,4 @@
-# rp2040_CLI_Make
+# Raspberry Pi Pico CLI Build
 
 [![Download Repository Zip](https://img.shields.io/badge/Download_Repository_Zip-FFFFFF?style=for-the-badge)]([https://github.com/new?template_name=Lora_Pico_Driver&template_owner=cschorn01](https://github.com/cschorn01/rp2040_CLI_Make/archive/refs/heads/main.zip))
 
