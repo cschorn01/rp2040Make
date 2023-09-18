@@ -22,12 +22,24 @@ Include in your project folder to easily delete, then recreate your build folder
 
 ## Functionality
 
+The `system()` function from the `stdlib.h` library can perform command line prompts, allowing automation of the build process for the Raspberry Pi Pico. This is a series of five commands:
+```
+rm -r build
+mkdir build
+cmake -D FREERTOS_KERNEL_PATH=/Path-To/FreeRTOS-Kernel -D PICO_SDK_PATH=/Path-To/pico-sdk -B ./build
+make -C build
+```
 
 ## File Structure
-
+- 
 
 ## How To Use
-
+    <!-- system( "rm -r build" );
+    system( "mkdir build" );
+    // system( 'cmake from 'project-folder' into 'build')
+    system( "cmake -D FREERTOS_KERNEL_PATH=/Path-To/FreeRTOS-Kernel -D PICO_SDK_PATH=/Path-To/pico-sdk -B ./build" );
+    // system( 'make from 'build'') -C DIRECTORY, Change to DIRECTORY before doing anything.
+    system( "make -C build" ); -->
   
 
 
