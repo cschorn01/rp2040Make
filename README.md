@@ -31,9 +31,18 @@ make -C build
 ```
 
 ## File Structure
-- [rp2040Make.c]()
+- [rp2040Make.c](https://github.com/cschorn01/rpi_pico_CLI_easy_build/blob/main/rp2040Make.c)
 
 ## How To Use
+
+It's very simple to use this program, since it's C code, by compiling the code then running the output.
+
+```
+gcc rp2040Make.c
+./a.out
+```
+
+After running these command line prompts you should see a build folder appear, the output from CMake, and the build folder become populated.
     <!-- system( "rm -r build" );
     system( "mkdir build" );
     // system( 'cmake from 'project-folder' into 'build')
@@ -44,3 +53,8 @@ make -C build
 
 
 [![TOP](https://img.shields.io/badge/TOP-FFFFFF?style=for-the-badge)](https://github.com/cschorn01/rpi_pico_CLI_easy_build/)
+<div align="center" dir="auto">
+  <a href="https://github.com/cschorn01/rpi_pico_CLI_easy_build">
+    <img src="https://img.shields.io/badge/Back_To_Top-FFFFFF?style=for-the-badge" alt="Back To Top">
+  </a>
+</div>
