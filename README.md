@@ -26,7 +26,7 @@ The `system()` function from the `stdlib.h` library can perform command line pro
 ```
 rm -r build
 mkdir build
-cmake -D FREERTOS_KERNEL_PATH=/Path-To/FreeRTOS-Kernel -D PICO_SDK_PATH=/Path-To/pico-sdk -B ./build
+cmake -D PICO_SDK_PATH=/Path-To/pico-sdk -B ./build
 make -C build
 ```
 
@@ -41,7 +41,11 @@ The file structure shown here is the expected layout as in Raspberry Pi Pico exa
 
 ## How To Use
 
-It's very simple to use this program, since it's C code, by compiling the code then running the output.
+It's very simple to use this program.  Just add the path to your *pico_sdk* folder in the `cmake` command.
+
+`cmake -D PICO_SDK_PATH=/Path-To/pico-sdk -B ./build`
+
+Since it's C code, after you add your path, just compile the code to running the output.
 
 ```
 gcc rp2040Make.c
