@@ -32,7 +32,7 @@ make -C build
 
 ## File Structure
 
-The file structure shown here is the expected layout as in Raspberry Pi Pico examples
+The file structure shown here is the layout for the [Raspberry Pi Github Examples](https://github.com/raspberrypi/pico-examples/tree/master)
 
 - pico_projects
     - [rp2040Make.c](https://github.com/cschorn01/rpi_pico_CLI_easy_build/blob/main/rp2040Make.c)
