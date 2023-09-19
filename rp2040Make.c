@@ -10,7 +10,7 @@ int main( void ){
     system( "rm -r build" );
     system( "mkdir build" );
     // system( 'cmake from 'project-folder' into 'build')
-    system( "cmake -D FREERTOS_KERNEL_PATH=/Path-To/FreeRTOS-Kernel -D PICO_SDK_PATH=/Path-To/pico-sdk -B ./build" );
+    system( "cmake -D PICO_SDK_PATH=/Path-To/pico-sdk -B ./build" );
     // system( 'make from 'build'') -C DIRECTORY, Change to DIRECTORY before doing anything.
     system( "make -C build" );
 
