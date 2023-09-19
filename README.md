@@ -31,7 +31,13 @@ make -C build
 ```
 
 ## File Structure
-- [rp2040Make.c](https://github.com/cschorn01/rpi_pico_CLI_easy_build/blob/main/rp2040Make.c)
+
+The file structure shown here is the expected layout as in Raspberry Pi Pico examples
+
+-pico_projects
+    - [rp2040Make.c](https://github.com/cschorn01/rpi_pico_CLI_easy_build/blob/main/rp2040Make.c)
+    - CMakeLists.txt
+    - main.c
 
 ## How To Use
 
