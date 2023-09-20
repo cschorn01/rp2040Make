@@ -17,7 +17,7 @@
 [![Stargazers repo roster for @cschorn01/rpi_pico_CLI_easy_build](https://reporoster.com/stars/cschorn01/rpi_pico_CLI_easy_build)](https://github.com/cschorn01/rpi_pico_CLI_easy_build/stargazers)
 
 ## Description
-Include in your project folder to easily delete, then recreate your build folder, and run cmake. The .uf2 files will be put into the build folder for you. There is also a version that works with FreeRTOS in [rpi_pico_lora_template](https://github.com/cschorn01/rpi_pico_lora_template/blob/main/README.md).
+Include in your project folder to easily delete, then recreate your build folder, and run cmake. The .uf2 files will be put into the build folder for you. There is also a version that works with FreeRTOS in [raspberry_pi_pico_lora_template](https://github.com/cschorn01/raspberry_pi_pico_lora_template/blob/main/README.md).
 
 
 ## Functionality
