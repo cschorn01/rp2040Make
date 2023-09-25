@@ -17,7 +17,7 @@
 [![Stargazers repo roster for @cschorn01/raspberry_pi_pico_CLI_easy_build](https://reporoster.com/stars/cschorn01/raspberry_pi_pico_CLI_easy_build)](https://github.com/cschorn01/raspberry_pi_pico_CLI_easy_build/stargazers)
 
 ## Description
-Include in your project folder to easily delete, then recreate your build folder, and run cmake. The .uf2 files will be put into the build folder for you. There is also a version that works with FreeRTOS in [raspberry_pi_pico_lora_template](https://github.com/cschorn01/raspberry_pi_pico_lora_template/blob/main/README.md).
+Include in your Raspberry Pi Pico project folder to easily run cmake, and fill the build folder. There is also a version that works with FreeRTOS in [raspberry_pi_pico_lora_template](https://github.com/cschorn01/raspberry_pi_pico_lora_template/blob/main/README.md).
 
 
 ## Functionality
@@ -43,7 +43,7 @@ The file structure shown here is the layout for the [Raspberry Pi Github Example
 
 It's very simple to use this program.  Just add the path to your *pico_sdk* folder in the `cmake` command.
 
-`cmake -D PICO_SDK_PATH=/Path-To/pico-sdk -B ./build`
+`cmake -D PICO_SDK_PATH=/Absolute-Path-To/pico-sdk -B ./build`
 
 Since it's C code, after you add your path, just compile the code to running the output.
 
