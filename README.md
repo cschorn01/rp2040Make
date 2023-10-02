@@ -22,7 +22,7 @@
 Run `./rp2040Make.sh`, or `./a.out`, to perform the Raspberry Pi Pico build command sequence.There is also a version that works with FreeRTOS in [raspberry_pi_pico_lora_template](https://github.com/cschorn01/raspberry_pi_pico_lora_template/blob/main/README.md).
 
 
-## Functionality
+## ![Functionality](https://img.shields.io/badge/Functionality-FFFFFF?style=for-the-badge)
 
 Instead of running the five commands used for building a Raspberry Pi Pico project:
 ```bash
@@ -33,7 +33,7 @@ make -C build  # -C changes folder to build before running make
 ```
 Replace that with shell script, or C code running shell commands, including `export PICO_SDK_PATH=/Path/To/pico-sdk`.
 
-## File Structure
+## ![File Structure](https://img.shields.io/badge/file_structure-FFFFFF?style=for-the-badge)
 
 The file structure shown here is the layout for the [Raspberry Pi Github Examples](https://github.com/raspberrypi/pico-examples/tree/master) with this file included.
 
@@ -43,7 +43,7 @@ The file structure shown here is the layout for the [Raspberry Pi Github Example
     - CMakeLists.txt
     - main.c
 
-## How To Use
+## ![How to Use](https://img.shields.io/badge/how_to_use-FFFFFF?style=for-the-badge)
 
 For this to work on your machine, add the path to your *pico_sdk* folder in the `cmake` command.
 
