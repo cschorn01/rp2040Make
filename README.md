@@ -19,18 +19,19 @@
 [![Stargazers repo roster for @cschorn01/raspberry_pi_pico_CLI_easy_build](https://reporoster.com/stars/cschorn01/raspberry_pi_pico_CLI_easy_build)](https://github.com/cschorn01/raspberry_pi_pico_CLI_easy_build/stargazers)
 
 ## Description
-. There is also a version that works with FreeRTOS in [raspberry_pi_pico_lora_template](https://github.com/cschorn01/raspberry_pi_pico_lora_template/blob/main/README.md).
+Run ./rp2040Make.sh, or ./a.out, to perform the Raspberry Pi Pico build command sequence.There is also a version that works with FreeRTOS in [raspberry_pi_pico_lora_template](https://github.com/cschorn01/raspberry_pi_pico_lora_template/blob/main/README.md).
 
 
 ## Functionality
 
-The `system()` function from the `stdlib.h` library can perform command line prompts, allowing automation of the build process for the Raspberry Pi Pico. This is a series of five commands:
-```
+Instead of running the five commands used for building a Rpasberry Pi Pico project:
+```bash
 rm -r build
 mkdir build
-cmake -D PICO_SDK_PATH=/Path-To/pico-sdk -B ./build
-make -C build
+cmake -D PICO_SDK_PATH=/Absolute/Path/To/pico-sdk -B ./build  #cmake from project folder into build folder
+make -C build  # -C changes folder to build before running make
 ```
+Replace that with shell script, or C code running shell commands, including `export PICO_SDK_PATH=/Path/To/pico-sdk`.
 
 ## File Structure
 
@@ -38,29 +39,33 @@ The file structure shown here is the layout for the [Raspberry Pi Github Example
 
 - pico_projects
     - [rp2040Make.c](https://github.com/cschorn01/raspberry_pi_pico_CLI_easy_build/blob/main/rp2040Make.c)
+    - [rp2040Make.sh](https://github.com/cschorn01/raspberry_pi_pico_CLI_easy_build/blob/main/rp2040Make.sh)
     - CMakeLists.txt
     - main.c
 
 ## How To Use
 
-It's very simple to use this program.  Just add the path to your *pico_sdk* folder in the `cmake` command.
+For this to work on your machine, add the path to your *pico_sdk* folder in the `cmake` command.
 
-`cmake -D PICO_SDK_PATH=/Absolute-Path-To/pico-sdk -B ./build`
-
-Since it's C code, after you add your path, just compile the code to running the output.
-
+```bash
+cmake -D PICO_SDK_PATH=/Absolute-Path-To/pico-sdk -B ./build
 ```
+
+Then the `rp2040Make.sh` file will need its execute permissions changes. For this run:
+
+```bash
+chmod +x rp2040Make.sh
+```
+Now this file can be run using `./rp2040Make.sh`.
+
+For the C code, after you add your path, just compile the code and run the output.
+
+```bash
 gcc rp2040Make.c
 ./a.out
 ```
 
 After running these command line prompts you should see a build folder appear, the output from CMake, and the build folder become populated.
-    <!-- system( "rm -r build" );
-    system( "mkdir build" );
-    // system( 'cmake from 'project-folder' into 'build')
-    system( "cmake -D FREERTOS_KERNEL_PATH=/Path-To/FreeRTOS-Kernel -D PICO_SDK_PATH=/Path-To/pico-sdk -B ./build" );
-    // system( 'make from 'build'') -C DIRECTORY, Change to DIRECTORY before doing anything.
-    system( "make -C build" ); -->
   
 <div align="center" dir="auto">
   <a href="https://github.com/cschorn01/raspberry_pi_pico_CLI_easy_build">
