@@ -19,7 +19,7 @@
 [![Stargazers repo roster for @cschorn01/rp2040Make](https://reporoster.com/stars/cschorn01/rp2040Make)](https://github.com/cschorn01/rp2040Make/stargazers)
 
 ## ![Description](https://img.shields.io/badge/Description-FFFFFF?style=for-the-badge)
-Run `./rp2040Make.sh`, or `./a.out`, to perform the Raspberry Pi Pico build command sequence.There is also a version that works with FreeRTOS in [raspberry_pi_pico_lora_template](https://github.com/cschorn01/raspberry_pi_pico_lora_template/blob/main/README.md).
+Easy to use Raspberry Pi Pico command line build sequence replacement. There is both C and shell script files for whatever tickles your fancy. There is also a version that works with FreeRTOS in [raspberry_pi_pico_lora_template](https://github.com/cschorn01/raspberry_pi_pico_lora_template/blob/main/README.md).
 
 
 ## ![Functionality](https://img.shields.io/badge/Functionality-FFFFFF?style=for-the-badge)
